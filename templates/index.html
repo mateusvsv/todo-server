@@ -1,0 +1,11 @@
+<html>
+    <head>
+        <title>WS TODO</title>
+    </head>
+    <body>
+        <h2>Tarefas</h2>
+        {% for tarefa in tarefas %}
+            <span>{{ tarefa.titulo }} - {{ tarefa.completo }}<br><span>
+        {% endfor %}
+    </body>
+</html>
